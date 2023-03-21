@@ -1,6 +1,5 @@
-
-const connectToMongo = require('./db')
 const express = require('express')
+const connectToMongo = require('./db')
 var cors = require('cors')
 const dotenv = require('dotenv')
 const path = require('path')
